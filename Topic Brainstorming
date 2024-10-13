@@ -29,3 +29,8 @@ Nick's Ideas:
 *13. Estimate evacuation compliance rates during natural disasters over the last few years to predict the effectiveness of early warning systems/disaster response
 *14. Is CSU parking at capacity? With the student enrollment increasing each year can we predict when CSU parking will be completely full? Can we determine how many more parking spaces they might need to comfortably accomodate parking at CSU?
 
+Grace's Ideas:
+1. Something with a map (this is super vague, but I think anything with a map would be very cool-- land use classifications over time, hiking traffic or regular traffic, office location vs number of applications for a job)
+2. Book recommendation system: possible dataset - https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Books.csv
+3. Gym workout/class recommendation system or predict popularity of classes (based on instructor, time of day, etc) -  https://www.kaggle.com/datasets/ka66ledata/gym-membership-dataset
+4. Predicting how long a hike will take - https://www.kaggle.com/datasets/roccoli/gpx-hike-tracks
