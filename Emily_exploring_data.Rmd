@@ -1,4 +1,4 @@
-    Loading Git Project:
+    Working with Git Project:
     1. Make sure project is set to D445_Project in RStudio
     2. In RStudio Console:
         getwd() = Verify working directory is set to this project
