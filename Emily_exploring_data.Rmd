@@ -1,0 +1,22 @@
+
+Explanatory
+
+```{r}
+#############
+# Libraries #
+#############
+
+
+```
+
+Creating dfs for the price, number of daily bike trips, and the number of daily scooter trips taken over our entire data period.
+
+```{r}
+df_daily_scooter_trips <- data.frame(read.csv(file.path(data_dir,"scooters 2021-07-26--2024-10-17-analyze-trips_by_date.csv")))
+df_daily_bike_trips <- data.frame(read.csv(file.path(data_dir,"bikes 2021-07-26--2024-10-17-analyze-trips_by_date.csv")))
+df_hourly_price_rate <- data.frame(read.csv(file.path(data_dir,"spin-prices.csv")))
+
+head(df_daily_scooter_trips)
+head(df_daily_bike_trips)
+head(df_hourly_price_rate)
+```
