@@ -1,20 +1,6 @@
 This is where I will be exploring the geological start and end locations for the spin cycle datasets provided for our research project. The goals for this portion of the project are:
 
 1.  Use latitude and longitude data to develop a heat map for spin scooter start and end locations.
-2.  Use OpenStreetMap and tigris to form a boundary for key areas of Fort Collins
-3.  
-
-```{r}
-install.packages('osmdata')
-```
-
-```{r}
-install.packages('tigris')
-```
-
-```{r}
-install.packages('ggmap')
-```
 
 ```{r}
 #libraries
@@ -22,11 +8,10 @@ library(tidyverse)
 library(tidymodels)
 library(sf)
 library(ggplot2)
-library(osmdata)
-library(tigris)
 library(ggmap)
 library(RColorBrewer)
 library(patchwork)
+library(here)
 ```
 
 1. Explore the data.
@@ -34,8 +19,9 @@ library(patchwork)
 a)  Load the starting and ending latitude and longitude coordinates into respective data-frames. 
 
 ```{r}
-start_scoot <- data.frame(read.csv('fort-collins-curb-events-2021-07-26-2024-10-15-trip_starts.csv'))
-end_scoot <- data.frame(read.csv('fort-collins-curb-events-2021-07-26-2024-10-15-trip_ends.csv'))
+data_dir <- 'FOCO Spin Data'
+start_scoot <- data.frame(read.csv(file.path(data_dir,'fort-collins-curb-events-2021-07-26-2024-10-15-trip_starts.csv')))
+end_scoot <- data.frame(read.csv(file.path(data_dir,'fort-collins-curb-events-2021-07-26-2024-10-15-trip_ends.csv')))
 
 
 head(start_scoot)
