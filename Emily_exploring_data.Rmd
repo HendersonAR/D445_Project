@@ -9,13 +9,12 @@
         cd - = Go back to previous directory
         ls = Lists contents of current directory
         git init = Initialize git connection
-        git status = Check what needs to be committed
+        git status = Check what status needs to be changed before comitting
           - git  add <file>
           - git rm <file>
           - git restore <file>
-          - git rm -r <folder name>
         git commit -m "" = Commit changes from terminal with message
-    4. Open GitHub Desktop and which files to commit to main. Then click 
+    4. Might need to open GitHub Desktop and verify changes. Then, click "push origin".
 
 ```{r}
 #############
