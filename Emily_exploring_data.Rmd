@@ -7,12 +7,15 @@
     3. In RStudio Terminal:
         cd <destination> = Change directory
         cd - = Go back to previous directory
+        ls = Lists contents of current directory
         git init = Initialize git connection
         git status = Check what needs to be committed
           - git  add <file>
           - git rm <file>
           - git restore <file>
+          - git rm -r <folder name>
         git commit -m "" = Commit changes from terminal with message
+    4. Open GitHub Desktop and which files to commit to main. Then click 
 
 ```{r}
 #############
